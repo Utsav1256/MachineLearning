@@ -24,20 +24,27 @@ A journey from basics to advance
 
 - Python will automatically detect the datatype of the variable and assign it to the variable.
 
-- There is no semicolon to be used to end lines unlike in Java, C or C++.
+- It is not necessary to use `semicolon (;)` at the end of a statement unlike in Java, C or C++.
 
 - To check the datatype of variables, simply write
 
 ```py
- type(variable_name), 
+ type(variable_name)
 ```
  - it will output the datatype of the variable.
  ```py
  a = 10;
  print(type(a)); # -> <class 'int'>
+ a = "a"
+ print(type(a)) # -> <class 'str'>
 
  # What is `class` here? -> we will see later on.
 ```
+
+
+
+
+
 
 
     
